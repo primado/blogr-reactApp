@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Hero from './Hero'
+import DesktopNav from './components/DesktopNav'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
 
       <Hero />
+      <DesktopNav />
       
     </div>
   )
